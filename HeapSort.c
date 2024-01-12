@@ -43,14 +43,16 @@ void desc_filter(int *A, int i, int n) {
             A[i] = A[child];
             i = child;
             child = 2 * i + 1;
+            
         } else {
+        
             break;
         }
     }
 
     A[i] = tmp;
 }
-
+//Swapping function. 
 void heapSwap(int *A, int i, int j) {
 
     int tmp = A[i];
