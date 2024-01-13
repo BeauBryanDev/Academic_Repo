@@ -1,0 +1,8 @@
+#ignore ALL .py files 
+
+*.py
+
+*.log
+.jpg
+temp/
+
