@@ -13,7 +13,7 @@ printf("Enter n as the size fo your unsorted arraylist\t:");
 scanf("%d", &n);
 printf("%d\n", n);
 printf("Type each of the Elements of your Array 1/1 bellow\n");
-
+//ASK USER TO TYPE EACH NUMBER OF THE ARRAY TO BE SORTED. ...
 for ( i = 0; i< n ; i ++ ) {
 
 	printf("A[ %d ] = :", i);
@@ -67,7 +67,7 @@ return 0;
 }
 
 void Swap( int *a, int *b )  { 
-
+	//SWAPING ELEMENTS AS *A, *B....  
 	int tmp = *a;
 	    *a  = *b;
 	    *b  = tmp;
