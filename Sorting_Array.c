@@ -66,6 +66,8 @@ return 0;
 
 void Swap( int *a, int *b )  { 
 
+//temporal variable tmp to store *a while it is swapped into  *b...
+
 	int tmp = *a;
 	    *a  = *b;
 	    *b  = tmp;
