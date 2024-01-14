@@ -48,8 +48,8 @@ int partition(int arr[], int start, int end ) {
         if (arr[j] <= pivot) {
             i++; // Increment index of smaller element
             swap(&arr[i], &arr[j]);
-            
-        }//Swapping values at Quick_Sorting:_:Algorithm....
+          
+        }
     }
     swap(&arr[i + 1], &arr[end] );
     
