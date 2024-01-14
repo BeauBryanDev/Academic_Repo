@@ -35,23 +35,24 @@ for ( i = 0; i< n;  i++ ) {
 	
 	for ( j =i+1; j < n; j ++  ) {
 	
-		if ( A[j] < A[min_indx] ) { 
+		if ( A[j] > A[min_indx] ) { 
 		
 			min_indx = j;
 		
-		}
+		}//it shour be only on sparebranch no MO>RE>WWWW....
+		
 		
 	}
-	
+	//d__Creasing __Sorted Array from  biggeest to smallest elements.....
 	if ( min_indx != i ) {
 		
 		Swap( &A[i], &A[min_indx] );
 		
 	}
 }
-print("*******Bubble_Sort********\n");
+printf("****** *Bubble_Sort***** ***\n");
 printf("Sorted>_Array__Done! *\n[\t");
-print("*******Bubble_Sort********\n");
+
 for  ( s = 0; s <n ; s ++ ) { 
 
 	printf("%d\t,", A[s]);
@@ -60,6 +61,7 @@ for  ( s = 0; s <n ; s ++ ) {
 printf("]\n");
 
 printf("***************************\n");
+
 return 0;
 
 }
