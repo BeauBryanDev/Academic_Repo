@@ -4,4 +4,7 @@
  
  test revert && reset commands. ...
  
+ asadfghkjl
+ z<dfdghjk
+ asdfghjdftjkjk.
  
