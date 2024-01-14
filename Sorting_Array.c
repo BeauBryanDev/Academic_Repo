@@ -30,9 +30,9 @@ printf("]\t\n");
 int tmp ;
 
 for ( i = 0; i< n;  i++ ) { 
-
+	//tmp variable declaration....
 	int min_indx = i;
-	
+	//inner for__loop.
 	for ( j =i+1; j < n; j ++  ) {
 	
 		if ( A[j] > A[min_indx] ) { 
@@ -47,12 +47,12 @@ for ( i = 0; i< n;  i++ ) {
 	if ( min_indx != i ) {
 		
 		Swap( &A[i], &A[min_indx] );
-		
+	
 	}
 }
 printf("****** *Bubble_Sort***** ***\n");
 printf("Sorted>_Array__Done! *\n[\t");
-
+//printing sorted Array as Output....
 for  ( s = 0; s <n ; s ++ ) { 
 
 	printf("%d\t,", A[s]);
