@@ -3,7 +3,7 @@
 int i,j,k;
 int s,n;
 int A[100];
-
+//Initialized  Array as >A[200]....
 void Swap( int *a, int *b);
 
 int  main ( void )  {
