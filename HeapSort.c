@@ -38,7 +38,7 @@ void desc_filter(int *A, int i, int n) {
         if (child + 1 < n && A[child + 1] > A[child]) {
             child++;
         }
-
+	//Sorting Heapify....
         if (A[child] > tmp) {
             A[i] = A[child];
             i = child;
@@ -49,7 +49,7 @@ void desc_filter(int *A, int i, int n) {
             break;
         }
     }
-
+//Return Sorted Eleement 1/1....
     A[i] = tmp;
 }
 //Swapping function. 
