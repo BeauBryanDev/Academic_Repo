@@ -49,8 +49,9 @@ for ( i = 0; i< n;  i++ ) {
 		
 	}
 }
-
-printf("Sorted>_Array__Done \n[\t");
+print("*******Bubble_Sort********\n");
+printf("Sorted>_Array__Done! *\n[\t");
+print("*******Bubble_Sort********\n");
 for  ( s = 0; s <n ; s ++ ) { 
 
 	printf("%d\t,", A[s]);
@@ -58,7 +59,7 @@ for  ( s = 0; s <n ; s ++ ) {
 }
 printf("]\n");
 
-
+printf("***************************\n");
 return 0;
 
 }
