@@ -1,1 +1,7 @@
- this is a second line of txtin flat file 
+ this is a second line of txtin flat file .
+ 
+ working on staged area....
+ 
+ test revert && reset commands. ...
+ 
+ 
