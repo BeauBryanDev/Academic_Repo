@@ -20,6 +20,8 @@ for ( i = 0; i< n ; i ++ ) {
 	scanf("%d", &A[i]);
 }
 printf("[\t");
+//I_tempoiral remakrs over here ....
+
 for  ( s = 0; s <n ; s ++ ) { 
 
 	printf("%d\t,", A[s]);
@@ -30,7 +32,7 @@ printf("]\t\n");
 int tmp ;
 
 for ( i = 0; i< n;  i++ ) { 
-	//tmp variable declaration....
+	//tmp variable declqaration....
 	int min_indx = i;
 	//inner for__loop.
 	for ( j =i+1; j < n; j ++  ) {
