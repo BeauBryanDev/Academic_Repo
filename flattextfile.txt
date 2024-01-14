@@ -4,7 +4,7 @@
  
  test revert && reset commands. ...
  
- asadfghkjl
- z<dfdghjk
- asdfghjdftjkjk.
+ this  is aminig to test git reset git__commands lines ....
+ sdfhjklñ{....
+ 
  
