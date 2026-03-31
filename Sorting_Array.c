@@ -3,7 +3,7 @@
 int i,j,k;
 int s,n;
 int A[100];
-
+//Initialized  Array as >A[200]....
 void Swap( int *a, int *b);
 
 int  main ( void )  {
@@ -13,13 +13,15 @@ printf("Enter n as the size fo your unsorted arraylist\t:");
 scanf("%d", &n);
 printf("%d\n", n);
 printf("Type each of the Elements of your Array 1/1 bellow\n");
-
+//ASK USER TO TYPE EACH NUMBER OF THE ARRAY TO BE SORTED. ...
 for ( i = 0; i< n ; i ++ ) {
 
 	printf("A[ %d ] = :", i);
 	scanf("%d", &A[i]);
 }
 printf("[\t");
+//I_tempoiral remakrs over here ....
+
 for  ( s = 0; s <n ; s ++ ) { 
 
 	printf("%d\t,", A[s]);
@@ -30,28 +32,29 @@ printf("]\t\n");
 int tmp ;
 
 for ( i = 0; i< n;  i++ ) { 
-
+	//tmp variable declqaration....
 	int min_indx = i;
-	
+	//inner for__loop.
 	for ( j =i+1; j < n; j ++  ) {
 	
-		if ( A[j] < A[min_indx] ) { 
+		if ( A[j] > A[min_indx] ) { 
 		
 			min_indx = j;
 		
-		}
+		}//it shour be only on sparebranch no MO>RE>WWWW....
+		
 		
 	}
-	
+	//d__Creasing __Sorted Array from  biggeest to smallest elements.....
 	if ( min_indx != i ) {
 		
 		Swap( &A[i], &A[min_indx] );
-		
+	
 	}
 }
-print("*******Bubble_Sort********\n");
+printf("****** *Bubble_Sort***** ***\n");
 printf("Sorted>_Array__Done! *\n[\t");
-print("*******Bubble_Sort********\n");
+//printing sorted Array as Output....
 for  ( s = 0; s <n ; s ++ ) { 
 
 	printf("%d\t,", A[s]);
@@ -60,12 +63,13 @@ for  ( s = 0; s <n ; s ++ ) {
 printf("]\n");
 
 printf("***************************\n");
+
 return 0;
 
 }
 
 void Swap( int *a, int *b )  { 
-
+	//SWAPING ELEMENTS AS *A, *B....  
 	int tmp = *a;
 	    *a  = *b;
 	    *b  = tmp;
